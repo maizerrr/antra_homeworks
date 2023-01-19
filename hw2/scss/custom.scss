@@ -1,0 +1,18 @@
+$theme-colors: (
+    "black": #222,
+    "dark": rgba(34, 34, 34, .7)
+);
+
+$border-widths: (
+    8: 8px
+);
+
+@import "../node_modules/bootstrap/scss/bootstrap";
+
+.z-index-2 {
+    z-index: 2;
+}
+
+.z-index-2ng {
+    z-index: -2;
+}
